@@ -52,6 +52,7 @@
 #define DSCOPE_FPGA_FIRMWARE "dreamsourcelab-dscope-fpga.fw"
 #define DSLOGIC_PRO_FPGA_FIRMWARE "dreamsourcelab-dslogic-pro-fpga.fw"
 #define DSLOGIC_PLUS_FPGA_FIRMWARE "dreamsourcelab-dslogic-plus-fpga.fw"
+#define DSLOGIC_PLUS_PANGO_FPGA_FIRMWARE "dreamsourcelab-dslogic-plus-pango-fpga.fw"
 #define DSLOGIC_BASIC_FPGA_FIRMWARE "dreamsourcelab-dslogic-basic-fpga.fw"
 #define DSLOGIC_U3PRO16_FPGA_FIRMWARE "dreamsourcelab-dslogic-u3pro16-fpga.fw"
 

@@ -43,6 +43,11 @@ static const struct dslogic_profile supported_device[] = {
 		"dreamsourcelab-dslogic-plus-fx2.fw",
 		0, "DreamSourceLab", "DSLogic", 256 * 1024 * 1024, 100,
 		512, SR_MHZ(100), SR_MHZ(200), SR_MHZ(400), 1},
+	/* DreamSourceLab DSLogic Plus (v421/Pango variant) */
+	{ 0x2a0e, 0x0030, "DreamSourceLab", "DSLogic Plus v421", NULL,
+		"dreamsourcelab-dslogic-plus-fx2.fw",
+		0, "DreamSourceLab", "DSLogic", 256 * 1024 * 1024, 100,
+		512, SR_MHZ(100), SR_MHZ(200), SR_MHZ(400), 1},
 	/* DreamSourceLab DSLogic Basic */
 	{ 0x2a0e, 0x0021, "DreamSourceLab", "DSLogic Basic", NULL,
 		"dreamsourcelab-dslogic-basic-fx2.fw",

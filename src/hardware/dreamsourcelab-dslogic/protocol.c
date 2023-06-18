@@ -613,6 +613,8 @@ SR_PRIV int dslogic_fpga_firmware_upload(const struct sr_dev_inst *sdi)
 			name = DSLOGIC_FPGA_FIRMWARE_5V;
 	} else if (!strcmp(devc->profile->model, "DSLogic Pro")){
 		name = DSLOGIC_PRO_FPGA_FIRMWARE;
+	} else if (!strcmp(devc->profile->model, "DSLogic Plus v421")){
+		name = DSLOGIC_PLUS_PANGO_FPGA_FIRMWARE;
 	} else if (!strcmp(devc->profile->model, "DSLogic Plus")){
 		name = DSLOGIC_PLUS_FPGA_FIRMWARE;
 	} else if (!strcmp(devc->profile->model, "DSLogic Basic")){
